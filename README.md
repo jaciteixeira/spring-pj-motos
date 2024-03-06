@@ -174,7 +174,6 @@ Alterar o arquivo contido em  **documentacao/equipe.txt** para incluir os RMs e 
 # Diagrama de Classes
 
 ![diagrama-classes-motos.png](documentacao%2Fdiagramas%2Fdiagrama-classes-motos.png)
-
  
 <a id="_Entrega"></a>
 

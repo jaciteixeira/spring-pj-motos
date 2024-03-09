@@ -26,6 +26,4 @@ for (let d = 0; d < dots.length; d++) {
     dots[d].addEventListener("click", function () {
         setActive(d);
     });
-
-
 }

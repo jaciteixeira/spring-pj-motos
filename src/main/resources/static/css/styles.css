@@ -11,6 +11,7 @@
     --black: #2f2f2f;
     --white: #fff;
     --red: #f83038;
+    --text: #1c1c1c;
 }
 
 .main {
@@ -158,6 +159,18 @@ header {
 
 .sci li a:hover {
     color: var(--red);
+}
+.copy{
+    margin-top: 30px;
+}
+.copy a {
+    text-decoration: none;
+    color: var(--text);
+    margin-right: 25px;
+    transition: 0.25s;
+}
+.copy a:hover {
+    color: var(--white);
 }
 
 .dots {

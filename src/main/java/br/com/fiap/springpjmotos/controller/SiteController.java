@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping(value = "/site")
+@RequestMapping(value = {"/", "/site"})
 public class SiteController {
     private static final Logger log = LoggerFactory.getLogger( SiteController.class );
 

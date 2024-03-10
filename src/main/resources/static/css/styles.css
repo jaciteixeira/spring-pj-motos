@@ -154,7 +154,6 @@ header {
     font-size: 2em;
     margin-right: 25px;
     transition: 0.25s;
-
 }
 
 .sci li a:hover {
@@ -163,6 +162,8 @@ header {
 
 .copy {
     margin-top: 30px;
+    font-size: 0.7em;
+    align-items: center;
 }
 
 .copy a {

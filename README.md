@@ -173,8 +173,9 @@ Alterar o arquivo contido em  **documentacao/equipe.txt** para incluir os RMs e 
 
 # Diagrama de Classes
 
-![diagrama-classes-motos.png](documentacao%2Fdiagramas%2Fdiagrama-classes-motos.png)
- 
+![diagrama-classes-motos-v2.png](documentacao%2Fdiagramas%2Fdiagrama-classes-motos-v2.png)
+
+
 <a id="_Entrega"></a>
 
 # Como Entregar
@@ -195,7 +196,8 @@ git clone https://github.com/Benefrancis/spring-pj-motos && cd spring-pj-motos &
 ```
 
 
-A avaliação é em dupla.
+A atividade é em **DUPLA**, não se esqueça de colocar o nome dos integrantes no arquivo contido em documentacao/equipe.txt. Em caso de fraude de qualquer tipo, todos os envolvidos receberão nota ZERO.
+
 
 
 Boa avaliação.

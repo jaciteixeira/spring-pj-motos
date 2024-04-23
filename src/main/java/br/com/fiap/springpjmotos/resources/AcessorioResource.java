@@ -4,6 +4,7 @@ package br.com.fiap.springpjmotos.resources;
 import br.com.fiap.springpjmotos.entity.Acessorio;
 import br.com.fiap.springpjmotos.repository.AcessorioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
@@ -28,8 +29,8 @@ public class AcessorioResource {
 
     @Transactional
     @PostMapping
-    public Acessorio save(@RequestBody Acessorio acessorio) {
-        return repo.save(acessorio);
+    public ResponseEntity<Acessorio> save(@RequestBody Acessorio acessorio) {
+        return ResponseEntity.ok( repo.save(acessorio));
     }
 
 }

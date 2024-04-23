@@ -38,6 +38,8 @@ public class Veiculo {
 
     private Short cilindradas;
 
+    private String linkFoto;
+
     @ManyToOne(fetch = FetchType.EAGER, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
     @JoinColumn(
             name = "TIPO",

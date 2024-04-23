@@ -30,5 +30,7 @@ public class Acessorio {
     @Column(name = "NM_ACESSORIO")
     private String nome;
 
+    private String linkFoto;
+
     private Double preco;
 }
